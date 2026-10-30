@@ -15,16 +15,15 @@ Trained on 4,500 TinyStories, validated on 500 held-out stories (character-level
 
 ![Validation loss](results/loss_comparison.png)
 
-Samples, all prompted with "Once upon a time" or "One day, Lily" at temperature 0.5.
-The transformer lines are the best of 15 samples; most samples drift off within two sentences.
+Samples, prompted with "Once upon a time" or "One day, Lily".
 
-Bigram:
+Bigram (temperature 0.7):
 
 ```
 Once upon a timer the bir ilo ath they hed t im an wik be ut man ha...
 ```
 
-Transformer (10,000 steps):
+Transformer (10,000 steps, temperature 0.5, best of 15 samples; most samples drift off within two sentences):
 
 ```
 Once upon a time, there was a little boy named Tim. Tim loved to play with his friends.

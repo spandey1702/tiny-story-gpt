@@ -9,23 +9,28 @@ Trained on 4,500 TinyStories, validated on 500 held-out stories (character-level
 
 | model | parameters | steps | val loss | training time (M2 GPU) |
 |---|---|---|---|---|
-| bigram | 4,900 | 3,000 | 2.300 | 6 s |
+| bigram | 4,900 | 3,000 | 2.300 | 5 s |
 | transformer | 817,990 | 3,000 | 1.099 | 74 s |
-| transformer | 817,990 | 10,000 | 0.978 | 247 s |
+| transformer | 817,990 | 10,000 | 0.975 | 232 s |
 
 ![Validation loss](results/loss_comparison.png)
 
-Sample from the bigram model:
+Samples, all prompted with "Once upon a time" or "One day, Lily" at temperature 0.5.
+The transformer lines are the best of 15 samples; most samples drift off within two sentences.
+
+Bigram:
 
 ```
-On. ace ssit way, ar Thay tl rnanthayud ake plliean.
+Once upon a timer the bir ilo ath they hed t im an wik be ut man ha...
 ```
 
-Sample from the 10,000-step transformer:
+Transformer (10,000 steps):
 
 ```
-She asked her room tree and had a big, yest.
-"LeNo, I'm sharprise you did and make this."
+Once upon a time, there was a little boy named Tim. Tim loved to play with his friends.
+
+One day, Lily and the bird were so happy and sad. They were sorry and Anna was very sad.
+They all lived happily ever after.
 ```
 
 The transformer learned spelling, names, dialogue and sentence rhythm, but not meaning yet.
@@ -46,8 +51,9 @@ GPU usage during the 10,000-step run is logged in `results/gpu_usage_10000.csv`
 src/prepare_data.py   split the stories 90/10 into data/train.txt and data/valid.txt
 src/load_data.py      character vocabulary and random batches
 src/model.py          BigramModel and TransformerModel
-src/train.py          training loop; set MODEL and STEPS at the top
+src/train.py          training loop; saves results/<run>.json and checkpoints/<run>.pt
 src/compare.py        comparison table and results/loss_comparison.png
+src/generate.py       load a checkpoint and write samples at a given temperature
 results/              per-run results (JSON), loss chart, GPU log
 ```
 
@@ -64,9 +70,13 @@ in `data/tinystories_5k.txt`, separated by `<|endoftext|>`, then:
 
 ```bash
 python src/prepare_data.py
-python src/train.py
+python src/train.py bigram 3000
+python src/train.py transformer 10000
 python src/compare.py
+python src/generate.py transformer_10000 0.5
 ```
+
+Lower temperature (e.g. 0.5) gives safer, more readable text; 1.0 samples the model's raw probabilities.
 
 ## Credits
 

@@ -17,10 +17,10 @@ class BigramModel(nn.Module):
         return logits, loss
 
     @torch.no_grad()
-    def generate(self, idx, max_new_tokens):
+    def generate(self, idx, max_new_tokens, temperature=1.0):
         for _ in range(max_new_tokens):
             logits, _ = self(idx)
-            probs = F.softmax(logits[:, -1, :], dim=-1)
+            probs = F.softmax(logits[:, -1, :] / temperature, dim=-1)
             next_id = torch.multinomial(probs, num_samples=1)
             idx = torch.cat([idx, next_id], dim=1)
         return idx
@@ -114,10 +114,10 @@ class TransformerModel(nn.Module):
         return logits, loss
 
     @torch.no_grad()
-    def generate(self, idx, max_new_tokens):
+    def generate(self, idx, max_new_tokens, temperature=1.0):
         for _ in range(max_new_tokens):
             logits, _ = self(idx[:, -self.block_size :])
-            probs = F.softmax(logits[:, -1, :], dim=-1)
+            probs = F.softmax(logits[:, -1, :] / temperature, dim=-1)
             next_id = torch.multinomial(probs, num_samples=1)
             idx = torch.cat([idx, next_id], dim=1)
         return idx

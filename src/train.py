@@ -1,4 +1,5 @@
 import json
+import sys
 import time
 
 import torch
@@ -6,10 +7,10 @@ import torch
 from load_data import load_data_from_files, get_batch
 from model import BigramModel, TransformerModel
 
-MODEL = "transformer"  # "bigram" or "transformer"
+MODEL = sys.argv[1] if len(sys.argv) > 1 else "transformer"  # "bigram" or "transformer"
 
 BATCH_SIZE = 32
-STEPS = 10000
+STEPS = int(sys.argv[2]) if len(sys.argv) > 2 else 10000
 EVAL_EVERY = 300
 EVAL_BATCHES = 100
 
@@ -89,3 +90,9 @@ result = {
 with open(f"results/{RUN_NAME}.json", "w", encoding="utf-8") as f:
     json.dump(result, f, indent=2)
 print(f"\nSaved results/{RUN_NAME}.json")
+
+torch.save(
+    {"model": MODEL, "block_size": BLOCK_SIZE, "state_dict": model.state_dict(), "stoi": stoi, "itos": itos},
+    f"checkpoints/{RUN_NAME}.pt",
+)
+print(f"Saved checkpoints/{RUN_NAME}.pt")

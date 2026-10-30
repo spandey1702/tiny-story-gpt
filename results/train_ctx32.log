@@ -1,0 +1,43 @@
+device: mps | vocabulary size: 70
+step     0 | train loss 4.385 | val loss 4.385 | GPU memory 42 MB | 2s
+step   300 | train loss 1.766 | val loss 1.756 | GPU memory 78 MB | 8s
+step   600 | train loss 1.516 | val loss 1.523 | GPU memory 78 MB | 14s
+step   900 | train loss 1.428 | val loss 1.403 | GPU memory 78 MB | 19s
+step  1200 | train loss 1.361 | val loss 1.366 | GPU memory 78 MB | 25s
+step  1500 | train loss 1.322 | val loss 1.318 | GPU memory 78 MB | 30s
+step  1800 | train loss 1.282 | val loss 1.288 | GPU memory 78 MB | 35s
+step  2100 | train loss 1.267 | val loss 1.264 | GPU memory 78 MB | 41s
+step  2400 | train loss 1.238 | val loss 1.243 | GPU memory 78 MB | 46s
+step  2700 | train loss 1.213 | val loss 1.226 | GPU memory 78 MB | 52s
+step  3000 | train loss 1.217 | val loss 1.209 | GPU memory 78 MB | 58s
+step  3300 | train loss 1.201 | val loss 1.188 | GPU memory 78 MB | 63s
+step  3600 | train loss 1.172 | val loss 1.195 | GPU memory 78 MB | 69s
+step  3900 | train loss 1.161 | val loss 1.176 | GPU memory 78 MB | 74s
+step  4200 | train loss 1.163 | val loss 1.159 | GPU memory 78 MB | 80s
+step  4500 | train loss 1.152 | val loss 1.164 | GPU memory 78 MB | 85s
+step  4800 | train loss 1.149 | val loss 1.151 | GPU memory 78 MB | 91s
+step  5100 | train loss 1.137 | val loss 1.146 | GPU memory 78 MB | 96s
+step  5400 | train loss 1.137 | val loss 1.140 | GPU memory 78 MB | 102s
+step  5700 | train loss 1.123 | val loss 1.123 | GPU memory 78 MB | 107s
+step  6000 | train loss 1.105 | val loss 1.125 | GPU memory 78 MB | 113s
+step  6300 | train loss 1.112 | val loss 1.105 | GPU memory 78 MB | 118s
+step  6600 | train loss 1.102 | val loss 1.128 | GPU memory 78 MB | 124s
+step  6900 | train loss 1.106 | val loss 1.112 | GPU memory 78 MB | 129s
+step  7200 | train loss 1.111 | val loss 1.115 | GPU memory 78 MB | 135s
+step  7500 | train loss 1.087 | val loss 1.100 | GPU memory 78 MB | 140s
+step  7800 | train loss 1.102 | val loss 1.095 | GPU memory 78 MB | 145s
+step  8100 | train loss 1.084 | val loss 1.101 | GPU memory 78 MB | 151s
+step  8400 | train loss 1.087 | val loss 1.082 | GPU memory 78 MB | 156s
+step  8700 | train loss 1.076 | val loss 1.095 | GPU memory 78 MB | 162s
+step  9000 | train loss 1.063 | val loss 1.105 | GPU memory 78 MB | 248s
+step  9300 | train loss 1.067 | val loss 1.085 | GPU memory 78 MB | 254s
+step  9600 | train loss 1.074 | val loss 1.095 | GPU memory 78 MB | 259s
+step  9900 | train loss 1.072 | val loss 1.086 | GPU memory 78 MB | 265s
+
+--- sample ---
+
+Oim went to the gome, Jane was alzed to spead, happy! All prayjumping came to hay with it." But the coudboard was happy. Tim got that it would rece pick and runs had it with it, bather cake. He maded he thought about they Bobon. All ate sad big yard when they could buy mail and ate yummy."
+Anna ran 
+
+Saved results/transformer_10000_ctx32.json
+Saved checkpoints/transformer_10000_ctx32.pt

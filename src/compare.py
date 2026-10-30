@@ -1,10 +1,14 @@
 import glob
 import json
+import sys
 
 import matplotlib.pyplot as plt
 
+PATTERN = sys.argv[1] if len(sys.argv) > 1 else "*"
+CHART = sys.argv[2] if len(sys.argv) > 2 else "loss_comparison.png"
+
 runs = []
-for path in sorted(glob.glob("results/*.json")):
+for path in sorted(glob.glob(f"results/{PATTERN}.json")):
     with open(path, encoding="utf-8") as f:
         runs.append(json.load(f))
 
@@ -27,5 +31,5 @@ plt.title("Tiny Story GPT: validation loss on TinyStories")
 plt.legend()
 plt.grid(alpha=0.3)
 plt.tight_layout()
-plt.savefig("results/loss_comparison.png", dpi=200)
-print("\nSaved results/loss_comparison.png")
+plt.savefig(f"results/{CHART}", dpi=200)
+print(f"\nSaved results/{CHART}")

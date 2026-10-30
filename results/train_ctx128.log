@@ -1,0 +1,43 @@
+device: mps | vocabulary size: 70
+step     0 | train loss 4.392 | val loss 4.395 | GPU memory 42 MB | 3s
+step   300 | train loss 1.905 | val loss 1.904 | GPU memory 265 MB | 17s
+step   600 | train loss 1.512 | val loss 1.496 | GPU memory 265 MB | 30s
+step   900 | train loss 1.341 | val loss 1.342 | GPU memory 265 MB | 43s
+step  1200 | train loss 1.251 | val loss 1.252 | GPU memory 265 MB | 56s
+step  1500 | train loss 1.186 | val loss 1.194 | GPU memory 265 MB | 69s
+step  1800 | train loss 1.144 | val loss 1.157 | GPU memory 265 MB | 82s
+step  2100 | train loss 1.110 | val loss 1.115 | GPU memory 265 MB | 95s
+step  2400 | train loss 1.079 | val loss 1.094 | GPU memory 265 MB | 108s
+step  2700 | train loss 1.056 | val loss 1.060 | GPU memory 265 MB | 121s
+step  3000 | train loss 1.032 | val loss 1.048 | GPU memory 265 MB | 134s
+step  3300 | train loss 1.019 | val loss 1.027 | GPU memory 265 MB | 147s
+step  3600 | train loss 0.999 | val loss 1.026 | GPU memory 265 MB | 161s
+step  3900 | train loss 0.994 | val loss 1.007 | GPU memory 265 MB | 174s
+step  4200 | train loss 0.982 | val loss 1.000 | GPU memory 265 MB | 187s
+step  4500 | train loss 0.975 | val loss 0.985 | GPU memory 265 MB | 200s
+step  4800 | train loss 0.964 | val loss 0.974 | GPU memory 265 MB | 213s
+step  5100 | train loss 0.959 | val loss 0.973 | GPU memory 265 MB | 226s
+step  5400 | train loss 0.952 | val loss 0.960 | GPU memory 265 MB | 240s
+step  5700 | train loss 0.946 | val loss 0.957 | GPU memory 265 MB | 254s
+step  6000 | train loss 0.937 | val loss 0.950 | GPU memory 265 MB | 270s
+step  6300 | train loss 0.922 | val loss 0.947 | GPU memory 265 MB | 285s
+step  6600 | train loss 0.929 | val loss 0.937 | GPU memory 265 MB | 300s
+step  6900 | train loss 0.908 | val loss 0.934 | GPU memory 265 MB | 314s
+step  7200 | train loss 0.918 | val loss 0.924 | GPU memory 265 MB | 329s
+step  7500 | train loss 0.912 | val loss 0.925 | GPU memory 265 MB | 344s
+step  7800 | train loss 0.904 | val loss 0.917 | GPU memory 265 MB | 358s
+step  8100 | train loss 0.899 | val loss 0.919 | GPU memory 265 MB | 373s
+step  8400 | train loss 0.901 | val loss 0.912 | GPU memory 265 MB | 387s
+step  8700 | train loss 0.894 | val loss 0.903 | GPU memory 265 MB | 402s
+step  9000 | train loss 0.896 | val loss 0.909 | GPU memory 265 MB | 417s
+step  9300 | train loss 0.881 | val loss 0.902 | GPU memory 265 MB | 432s
+step  9600 | train loss 0.888 | val loss 0.905 | GPU memory 265 MB | 447s
+step  9900 | train loss 0.885 | val loss 0.897 | GPU memory 265 MB | 462s
+
+--- sample ---
+
+ I wanted to live hurt, but she will not lost the clean feel tire." But she had a bake juice old stone on the sonk. She grewed her fry got hirs. I love you. The use we truck!"
+The driven bling the big, box kept looking this and jut. "Can feel get incretter the terrible and went to joke corn to the b
+
+Saved results/transformer_10000_ctx128.json
+Saved checkpoints/transformer_10000_ctx128.pt

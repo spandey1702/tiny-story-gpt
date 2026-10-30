@@ -18,10 +18,12 @@ if MODEL == "bigram":
     BLOCK_SIZE = 8
     LEARNING_RATE = 1e-2
 else:
-    BLOCK_SIZE = 64
+    BLOCK_SIZE = int(sys.argv[3]) if len(sys.argv) > 3 else 64
     LEARNING_RATE = 1e-3
 
 RUN_NAME = f"{MODEL}_{STEPS}"
+if len(sys.argv) > 3:
+    RUN_NAME += f"_ctx{BLOCK_SIZE}"
 
 torch.manual_seed(1337)
 device = "mps" if torch.backends.mps.is_available() else "cpu"

@@ -1,0 +1,44 @@
+device: mps | vocabulary size: 70
+step     0 | train loss 4.417 | val loss 4.420 | GPU memory 1124 MB | 8s
+step   300 | train loss 2.194 | val loss 2.198 | GPU memory 1192 MB | 51s
+step   600 | train loss 1.637 | val loss 1.637 | GPU memory 1192 MB | 96s
+step   900 | train loss 1.392 | val loss 1.388 | GPU memory 1192 MB | 140s
+step  1200 | train loss 1.270 | val loss 1.273 | GPU memory 1192 MB | 183s
+step  1500 | train loss 1.185 | val loss 1.193 | GPU memory 1192 MB | 224s
+step  1800 | train loss 1.133 | val loss 1.136 | GPU memory 1192 MB | 266s
+step  2100 | train loss 1.088 | val loss 1.097 | GPU memory 1192 MB | 308s
+step  2400 | train loss 1.060 | val loss 1.065 | GPU memory 1192 MB | 351s
+step  2700 | train loss 1.019 | val loss 1.037 | GPU memory 1192 MB | 394s
+step  3000 | train loss 1.006 | val loss 1.019 | GPU memory 1192 MB | 639s
+step  3300 | train loss 0.989 | val loss 0.997 | GPU memory 1192 MB | 679s
+step  3600 | train loss 0.975 | val loss 0.987 | GPU memory 1192 MB | 717s
+step  3900 | train loss 0.956 | val loss 0.965 | GPU memory 1192 MB | 756s
+step  4200 | train loss 0.943 | val loss 0.964 | GPU memory 1192 MB | 795s
+step  4500 | train loss 0.936 | val loss 0.947 | GPU memory 1192 MB | 834s
+step  4800 | train loss 0.921 | val loss 0.934 | GPU memory 1192 MB | 876s
+step  5100 | train loss 0.914 | val loss 0.930 | GPU memory 1192 MB | 921s
+step  5400 | train loss 0.908 | val loss 0.927 | GPU memory 1192 MB | 963s
+step  5700 | train loss 0.896 | val loss 0.912 | GPU memory 1192 MB | 1006s
+step  6000 | train loss 0.888 | val loss 0.905 | GPU memory 1192 MB | 1051s
+step  6300 | train loss 0.883 | val loss 0.900 | GPU memory 1192 MB | 1095s
+step  6600 | train loss 0.877 | val loss 0.893 | GPU memory 1192 MB | 1140s
+step  6900 | train loss 0.867 | val loss 0.885 | GPU memory 1192 MB | 1186s
+step  7200 | train loss 0.863 | val loss 0.880 | GPU memory 1192 MB | 1232s
+step  7500 | train loss 0.859 | val loss 0.879 | GPU memory 1192 MB | 1275s
+step  7800 | train loss 0.850 | val loss 0.869 | GPU memory 1192 MB | 1320s
+step  8100 | train loss 0.851 | val loss 0.868 | GPU memory 1192 MB | 1364s
+step  8400 | train loss 0.842 | val loss 0.873 | GPU memory 1192 MB | 1408s
+step  8700 | train loss 0.841 | val loss 0.860 | GPU memory 1192 MB | 1458s
+step  9000 | train loss 0.829 | val loss 0.848 | GPU memory 1192 MB | 1510s
+step  9300 | train loss 0.829 | val loss 0.853 | GPU memory 1192 MB | 1556s
+step  9600 | train loss 0.820 | val loss 0.843 | GPU memory 1192 MB | 1599s
+step  9900 | train loss 0.815 | val loss 0.838 | GPU memory 1192 MB | 1644s
+
+--- sample ---
+
+Once upon a time there was a little girl named Lucy where fitherd. He was pleased the food has a big tree.
+One day, a table, shop it came to touch. He was a framily named Mimi. Mia was very tall and frapped it splash. They liked to make him with them.
+"My aity, bird. That's amazing!" She found the c
+
+Saved results/transformer_10000_ctx256.json
+Saved checkpoints/transformer_10000_ctx256.pt

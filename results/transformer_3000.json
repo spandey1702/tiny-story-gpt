@@ -1,0 +1,64 @@
+{
+  "run": "transformer_3000",
+  "parameters": 817990,
+  "train_seconds": 73.5,
+  "final_val_loss": 1.098996751308441,
+  "history": [
+    {
+      "step": 0,
+      "train": 4.471259984970093,
+      "val": 4.469705786705017
+    },
+    {
+      "step": 300,
+      "train": 1.788948963880539,
+      "val": 1.7976994395256043
+    },
+    {
+      "step": 600,
+      "train": 1.4809973406791688,
+      "val": 1.4923153078556062
+    },
+    {
+      "step": 900,
+      "train": 1.3450796389579773,
+      "val": 1.3503589820861817
+    },
+    {
+      "step": 1200,
+      "train": 1.2817397272586823,
+      "val": 1.2808713877201081
+    },
+    {
+      "step": 1500,
+      "train": 1.226046530008316,
+      "val": 1.2415865635871888
+    },
+    {
+      "step": 1800,
+      "train": 1.188111070394516,
+      "val": 1.2071282422542573
+    },
+    {
+      "step": 2100,
+      "train": 1.1591402471065522,
+      "val": 1.1693919456005097
+    },
+    {
+      "step": 2400,
+      "train": 1.1330819618701935,
+      "val": 1.1484770035743714
+    },
+    {
+      "step": 2700,
+      "train": 1.1192720651626586,
+      "val": 1.131127261519432
+    },
+    {
+      "step": 3000,
+      "train": 1.1067412114143371,
+      "val": 1.098996751308441
+    }
+  ],
+  "sample": "\nKippent flowen playing ey und-a messy and realed it eat to mouse, larning more its were big who would not exore kees could drank. Lily look carse to give surn a thilow fly cat. Evenex, flow reful of fubrought tim happins. She scared, sops they cuged they  weloud to lefore twitch forewa. That ran as "
+}

@@ -1,0 +1,64 @@
+{
+  "run": "bigram_3000",
+  "parameters": 4900,
+  "train_seconds": 5.6,
+  "final_val_loss": 2.299584300518036,
+  "history": [
+    {
+      "step": 0,
+      "train": 4.748480205535889,
+      "val": 4.739879794120789
+    },
+    {
+      "step": 300,
+      "train": 2.6602609395980834,
+      "val": 2.665777175426483
+    },
+    {
+      "step": 600,
+      "train": 2.3734743309021,
+      "val": 2.3898807263374326
+    },
+    {
+      "step": 900,
+      "train": 2.3338207936286928,
+      "val": 2.331963315010071
+    },
+    {
+      "step": 1200,
+      "train": 2.326976432800293,
+      "val": 2.3168548774719238
+    },
+    {
+      "step": 1500,
+      "train": 2.308451454639435,
+      "val": 2.3196623730659485
+    },
+    {
+      "step": 1800,
+      "train": 2.306130414009094,
+      "val": 2.3148842024803162
+    },
+    {
+      "step": 2100,
+      "train": 2.293997344970703,
+      "val": 2.2993527674674987
+    },
+    {
+      "step": 2400,
+      "train": 2.3014311480522154,
+      "val": 2.307011430263519
+    },
+    {
+      "step": 2700,
+      "train": 2.2978381371498107,
+      "val": 2.304000277519226
+    },
+    {
+      "step": 3000,
+      "train": 2.295654149055481,
+      "val": 2.299584300518036
+    }
+  ],
+  "sample": "\nOn. ace ssit way, ar Thay tl rnanthayud ake plliean. he. gDaus clitt Toofesantowapond wily?kshe The es. r. boowim theofe tore swalke e Suer fom nd soryind Here xen Satom.\nXEXYogos h Tis, meaye Hey frithet tr, \" spy Pamakery beysak wained shede I't s.\nLinco n y \"Maly, at ak se \nOn t. sh thafer!\"Cat t"
+}

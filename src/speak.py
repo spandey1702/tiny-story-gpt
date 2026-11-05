@@ -6,6 +6,7 @@ from pathlib import Path
 
 import torch
 
+from device import get_device
 from generate import load_model, sample
 
 VOICE_DIR = Path("voices")
@@ -111,7 +112,7 @@ if __name__ == "__main__":
     MAX_NEW_CHARS = 500
 
     torch.manual_seed(42)
-    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    device = get_device()
     model, stoi, itos = load_model(RUN_NAME, device)
     story = trim_to_sentence(sample(model, stoi, itos, PROMPT, TEMPERATURE, MAX_NEW_CHARS, device))
 

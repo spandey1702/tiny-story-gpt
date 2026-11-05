@@ -101,6 +101,13 @@ class TransformerModel(nn.Module):
         self.ln_final = nn.LayerNorm(n_embd)
         self.lm_head = nn.Linear(n_embd, vocab_size)
 
+    def features(self, idx):
+        """The final hidden state at each position: what lm_head predicts from."""
+        T = idx.shape[1]
+        positions = torch.arange(T, device=idx.device)
+        x = self.token_embedding(idx) + self.position_embedding(positions)
+        return self.ln_final(self.blocks(x))
+
     def forward(self, idx, targets=None):
         B, T = idx.shape
         positions = torch.arange(T, device=idx.device)

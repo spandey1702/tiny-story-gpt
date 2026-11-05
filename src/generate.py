@@ -2,6 +2,7 @@ import sys
 
 import torch
 
+from device import get_device
 from model import BigramModel, TransformerModel
 
 
@@ -11,7 +12,14 @@ def load_model(run_name, device):
     if checkpoint["model"] == "bigram":
         model = BigramModel(len(stoi))
     else:
-        model = TransformerModel(len(stoi), checkpoint["block_size"])
+        # Older checkpoints don't store the model size: they all used the defaults
+        model = TransformerModel(
+            len(stoi),
+            checkpoint["block_size"],
+            n_embd=checkpoint.get("n_embd", 128),
+            n_head=checkpoint.get("n_head", 4),
+            n_layer=checkpoint.get("n_layer", 4),
+        )
     model.load_state_dict(checkpoint["state_dict"])
     model.to(device).eval()
     return model, stoi, itos
@@ -31,7 +39,7 @@ if __name__ == "__main__":
     PROMPTS = ["Once upon a time", "One day, Lily", "Tom was sad because"]
 
     torch.manual_seed(42)
-    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    device = get_device()
     model, stoi, itos = load_model(RUN_NAME, device)
 
     print(f"{RUN_NAME} | temperature {TEMPERATURE}")

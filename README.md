@@ -71,6 +71,8 @@ so the numbers are directly comparable. The baseline's earlier 0.838 was an esti
 | C | 3x bigger model (192-dim, 6 heads, 6 layers) | 49,500 stories | 2,747,989 | cosine | 0.7034 | 1,433 s |
 | C, re-run | same as C without the schedule | 49,500 stories | 2,747,989 | constant | 0.7027 | 1,434 s |
 
+![What improved the model](results/runs_card.png)
+
 - **The cosine schedule hurt the small model** (0.841 to 0.874). Its loss was still falling at step 10,000,
   so lowering the learning rate meant it learned less in the same number of steps.
 - **On the big model it made no difference** (0.7034 vs 0.7027), so all of the gain came from data and size:
@@ -139,6 +141,7 @@ src/device.py           picks CUDA, Apple GPU (MPS) or CPU
 src/compare.py          comparison table and results/loss_comparison.png
 src/generate.py         load a checkpoint and write samples at a given temperature
 src/make_card.py        context-window results card (results/context_card.png)
+src/make_runs_card.py   Colab experiments results card (results/runs_card.png)
 src/speak.py            narrate a generated story (Piper and macOS say)
 src/build_datastore.py  kNN-LM datastore from the training set (experiment in progress)
 colab/train_runs.ipynb  the Colab training runs

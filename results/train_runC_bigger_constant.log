@@ -1,0 +1,46 @@
+device: cuda | vocabulary size: 85 | training chars: 39,882,982
+run: runC_bigger | parameters: 2,747,989 | lr schedule: constant
+step     0 | train loss 4.652 | val loss 4.653 | lr 1.0e-03 | GPU memory 30 MB | 7s
+step   300 | train loss 1.944 | val loss 1.945 | lr 1.0e-03 | GPU memory 74 MB | 47s
+step   600 | train loss 1.346 | val loss 1.336 | lr 1.0e-03 | GPU memory 74 MB | 88s
+step   900 | train loss 1.162 | val loss 1.170 | lr 1.0e-03 | GPU memory 74 MB | 130s
+step  1200 | train loss 1.075 | val loss 1.081 | lr 1.0e-03 | GPU memory 74 MB | 174s
+step  1500 | train loss 1.005 | val loss 1.019 | lr 1.0e-03 | GPU memory 74 MB | 217s
+step  1800 | train loss 0.970 | val loss 0.968 | lr 1.0e-03 | GPU memory 74 MB | 260s
+step  2100 | train loss 0.937 | val loss 0.935 | lr 1.0e-03 | GPU memory 74 MB | 303s
+step  2400 | train loss 0.910 | val loss 0.911 | lr 1.0e-03 | GPU memory 74 MB | 346s
+step  2700 | train loss 0.878 | val loss 0.881 | lr 1.0e-03 | GPU memory 74 MB | 389s
+step  3000 | train loss 0.861 | val loss 0.857 | lr 1.0e-03 | GPU memory 74 MB | 432s
+step  3300 | train loss 0.825 | val loss 0.833 | lr 1.0e-03 | GPU memory 74 MB | 475s
+step  3600 | train loss 0.817 | val loss 0.823 | lr 1.0e-03 | GPU memory 74 MB | 519s
+step  3900 | train loss 0.800 | val loss 0.804 | lr 1.0e-03 | GPU memory 74 MB | 562s
+step  4200 | train loss 0.790 | val loss 0.796 | lr 1.0e-03 | GPU memory 74 MB | 605s
+step  4500 | train loss 0.782 | val loss 0.786 | lr 1.0e-03 | GPU memory 74 MB | 648s
+step  4800 | train loss 0.777 | val loss 0.776 | lr 1.0e-03 | GPU memory 74 MB | 691s
+step  5100 | train loss 0.763 | val loss 0.768 | lr 1.0e-03 | GPU memory 74 MB | 734s
+step  5400 | train loss 0.754 | val loss 0.762 | lr 1.0e-03 | GPU memory 74 MB | 777s
+step  5700 | train loss 0.755 | val loss 0.753 | lr 1.0e-03 | GPU memory 74 MB | 820s
+step  6000 | train loss 0.747 | val loss 0.751 | lr 1.0e-03 | GPU memory 74 MB | 863s
+step  6300 | train loss 0.744 | val loss 0.746 | lr 1.0e-03 | GPU memory 74 MB | 906s
+step  6600 | train loss 0.739 | val loss 0.738 | lr 1.0e-03 | GPU memory 74 MB | 949s
+step  6900 | train loss 0.730 | val loss 0.734 | lr 1.0e-03 | GPU memory 74 MB | 992s
+step  7200 | train loss 0.727 | val loss 0.735 | lr 1.0e-03 | GPU memory 74 MB | 1035s
+step  7500 | train loss 0.727 | val loss 0.732 | lr 1.0e-03 | GPU memory 74 MB | 1078s
+step  7800 | train loss 0.720 | val loss 0.726 | lr 1.0e-03 | GPU memory 74 MB | 1121s
+step  8100 | train loss 0.717 | val loss 0.714 | lr 1.0e-03 | GPU memory 74 MB | 1164s
+step  8400 | train loss 0.717 | val loss 0.711 | lr 1.0e-03 | GPU memory 74 MB | 1207s
+step  8700 | train loss 0.713 | val loss 0.711 | lr 1.0e-03 | GPU memory 74 MB | 1250s
+step  9000 | train loss 0.715 | val loss 0.711 | lr 1.0e-03 | GPU memory 74 MB | 1293s
+step  9300 | train loss 0.704 | val loss 0.708 | lr 1.0e-03 | GPU memory 74 MB | 1336s
+step  9600 | train loss 0.705 | val loss 0.706 | lr 1.0e-03 | GPU memory 74 MB | 1379s
+step  9900 | train loss 0.702 | val loss 0.705 | lr 1.0e-03 | GPU memory 74 MB | 1422s
+
+full validation loss: 0.7027
+
+--- sample ---
+
+One sunny day, Max knew  he was her special rest hug. He ran around the wall, he saw a lady and shorted his mom. Max Sue screamed out and said: "Let's still put onto my mittens inside the car." Sue and Max felt sad.
+Amy saw the mittens, Sue still looking nice and tried to run away, but Kim was scare
+
+Saved results/runC_bigger.json
+Saved checkpoints/runC_bigger.pt

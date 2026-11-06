@@ -1,0 +1,47 @@
+device: cuda | vocabulary size: 70 | training chars: 3,668,746
+run: runA_cosine | parameters: 842,566 | lr schedule: cosine
+step     0 | train loss 4.417 | val loss 4.420 | lr 5.0e-06 | GPU memory 17 MB | 3s
+step   300 | train loss 2.283 | val loss 2.288 | lr 1.0e-03 | GPU memory 38 MB | 19s
+step   600 | train loss 1.781 | val loss 1.782 | lr 1.0e-03 | GPU memory 38 MB | 34s
+step   900 | train loss 1.477 | val loss 1.475 | lr 9.9e-04 | GPU memory 38 MB | 50s
+step  1200 | train loss 1.331 | val loss 1.333 | lr 9.8e-04 | GPU memory 38 MB | 66s
+step  1500 | train loss 1.237 | val loss 1.244 | lr 9.6e-04 | GPU memory 38 MB | 83s
+step  1800 | train loss 1.179 | val loss 1.180 | lr 9.4e-04 | GPU memory 38 MB | 99s
+step  2100 | train loss 1.131 | val loss 1.138 | lr 9.2e-04 | GPU memory 38 MB | 116s
+step  2400 | train loss 1.099 | val loss 1.103 | lr 8.9e-04 | GPU memory 38 MB | 133s
+step  2700 | train loss 1.052 | val loss 1.070 | lr 8.6e-04 | GPU memory 38 MB | 149s
+step  3000 | train loss 1.037 | val loss 1.050 | lr 8.3e-04 | GPU memory 38 MB | 166s
+step  3300 | train loss 1.016 | val loss 1.023 | lr 8.0e-04 | GPU memory 38 MB | 182s
+step  3600 | train loss 0.999 | val loss 1.010 | lr 7.6e-04 | GPU memory 38 MB | 199s
+step  3900 | train loss 0.979 | val loss 0.988 | lr 7.2e-04 | GPU memory 38 MB | 216s
+step  4200 | train loss 0.963 | val loss 0.984 | lr 6.8e-04 | GPU memory 38 MB | 232s
+step  4500 | train loss 0.954 | val loss 0.963 | lr 6.4e-04 | GPU memory 38 MB | 249s
+step  4800 | train loss 0.938 | val loss 0.950 | lr 5.9e-04 | GPU memory 38 MB | 266s
+step  5100 | train loss 0.931 | val loss 0.946 | lr 5.5e-04 | GPU memory 38 MB | 282s
+step  5400 | train loss 0.924 | val loss 0.941 | lr 5.1e-04 | GPU memory 38 MB | 299s
+step  5700 | train loss 0.912 | val loss 0.927 | lr 4.6e-04 | GPU memory 38 MB | 316s
+step  6000 | train loss 0.903 | val loss 0.920 | lr 4.2e-04 | GPU memory 38 MB | 333s
+step  6300 | train loss 0.899 | val loss 0.916 | lr 3.8e-04 | GPU memory 38 MB | 349s
+step  6600 | train loss 0.895 | val loss 0.909 | lr 3.4e-04 | GPU memory 38 MB | 366s
+step  6900 | train loss 0.884 | val loss 0.901 | lr 3.0e-04 | GPU memory 38 MB | 382s
+step  7200 | train loss 0.881 | val loss 0.897 | lr 2.7e-04 | GPU memory 38 MB | 399s
+step  7500 | train loss 0.878 | val loss 0.898 | lr 2.4e-04 | GPU memory 38 MB | 415s
+step  7800 | train loss 0.872 | val loss 0.890 | lr 2.1e-04 | GPU memory 38 MB | 432s
+step  8100 | train loss 0.875 | val loss 0.890 | lr 1.8e-04 | GPU memory 38 MB | 449s
+step  8400 | train loss 0.865 | val loss 0.892 | lr 1.6e-04 | GPU memory 38 MB | 465s
+step  8700 | train loss 0.865 | val loss 0.883 | lr 1.4e-04 | GPU memory 38 MB | 482s
+step  9000 | train loss 0.858 | val loss 0.874 | lr 1.2e-04 | GPU memory 38 MB | 498s
+step  9300 | train loss 0.861 | val loss 0.883 | lr 1.1e-04 | GPU memory 38 MB | 515s
+step  9600 | train loss 0.855 | val loss 0.874 | lr 1.0e-04 | GPU memory 38 MB | 532s
+step  9900 | train loss 0.853 | val loss 0.873 | lr 1.0e-04 | GPU memory 38 MB | 548s
+
+full validation loss: 0.8743
+
+--- sample ---
+
+
+Once upon a time, in a small town, in a small dog named Mark. She swam and has a big smile of her money. She loved to play with the sack toast. One day, Tom found a little boy can make dancing a tree. Tom saw a little girl named Amy.
+When Amy were took a big face, Tom found a friendly. The fish's m
+
+Saved results/runA_cosine.json
+Saved checkpoints/runA_cosine.pt

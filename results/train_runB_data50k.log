@@ -1,0 +1,46 @@
+device: cuda | vocabulary size: 85 | training chars: 39,882,982
+run: runB_data50k | parameters: 846,421 | lr schedule: constant
+step     0 | train loss 4.532 | val loss 4.530 | lr 1.0e-03 | GPU memory 17 MB | 3s
+step   300 | train loss 2.197 | val loss 2.203 | lr 1.0e-03 | GPU memory 39 MB | 19s
+step   600 | train loss 1.599 | val loss 1.594 | lr 1.0e-03 | GPU memory 39 MB | 35s
+step   900 | train loss 1.363 | val loss 1.362 | lr 1.0e-03 | GPU memory 39 MB | 51s
+step  1200 | train loss 1.243 | val loss 1.240 | lr 1.0e-03 | GPU memory 39 MB | 68s
+step  1500 | train loss 1.166 | val loss 1.170 | lr 1.0e-03 | GPU memory 39 MB | 85s
+step  1800 | train loss 1.112 | val loss 1.111 | lr 1.0e-03 | GPU memory 39 MB | 102s
+step  2100 | train loss 1.070 | val loss 1.072 | lr 1.0e-03 | GPU memory 39 MB | 118s
+step  2400 | train loss 1.042 | val loss 1.041 | lr 1.0e-03 | GPU memory 39 MB | 135s
+step  2700 | train loss 1.011 | val loss 1.013 | lr 1.0e-03 | GPU memory 39 MB | 151s
+step  3000 | train loss 0.993 | val loss 0.991 | lr 1.0e-03 | GPU memory 39 MB | 168s
+step  3300 | train loss 0.978 | val loss 0.976 | lr 1.0e-03 | GPU memory 39 MB | 185s
+step  3600 | train loss 0.961 | val loss 0.957 | lr 1.0e-03 | GPU memory 39 MB | 201s
+step  3900 | train loss 0.947 | val loss 0.952 | lr 1.0e-03 | GPU memory 39 MB | 218s
+step  4200 | train loss 0.932 | val loss 0.935 | lr 1.0e-03 | GPU memory 39 MB | 235s
+step  4500 | train loss 0.927 | val loss 0.930 | lr 1.0e-03 | GPU memory 39 MB | 251s
+step  4800 | train loss 0.914 | val loss 0.918 | lr 1.0e-03 | GPU memory 39 MB | 268s
+step  5100 | train loss 0.907 | val loss 0.907 | lr 1.0e-03 | GPU memory 39 MB | 285s
+step  5400 | train loss 0.898 | val loss 0.900 | lr 1.0e-03 | GPU memory 39 MB | 301s
+step  5700 | train loss 0.890 | val loss 0.894 | lr 1.0e-03 | GPU memory 39 MB | 318s
+step  6000 | train loss 0.883 | val loss 0.886 | lr 1.0e-03 | GPU memory 39 MB | 334s
+step  6300 | train loss 0.878 | val loss 0.878 | lr 1.0e-03 | GPU memory 39 MB | 351s
+step  6600 | train loss 0.878 | val loss 0.868 | lr 1.0e-03 | GPU memory 39 MB | 368s
+step  6900 | train loss 0.871 | val loss 0.872 | lr 1.0e-03 | GPU memory 39 MB | 384s
+step  7200 | train loss 0.868 | val loss 0.865 | lr 1.0e-03 | GPU memory 39 MB | 401s
+step  7500 | train loss 0.856 | val loss 0.858 | lr 1.0e-03 | GPU memory 39 MB | 418s
+step  7800 | train loss 0.848 | val loss 0.854 | lr 1.0e-03 | GPU memory 39 MB | 434s
+step  8100 | train loss 0.850 | val loss 0.847 | lr 1.0e-03 | GPU memory 39 MB | 451s
+step  8400 | train loss 0.838 | val loss 0.844 | lr 1.0e-03 | GPU memory 39 MB | 468s
+step  8700 | train loss 0.836 | val loss 0.835 | lr 1.0e-03 | GPU memory 39 MB | 485s
+step  9000 | train loss 0.827 | val loss 0.825 | lr 1.0e-03 | GPU memory 39 MB | 501s
+step  9300 | train loss 0.818 | val loss 0.821 | lr 1.0e-03 | GPU memory 39 MB | 518s
+step  9600 | train loss 0.814 | val loss 0.816 | lr 1.0e-03 | GPU memory 39 MB | 535s
+step  9900 | train loss 0.817 | val loss 0.815 | lr 1.0e-03 | GPU memory 39 MB | 551s
+
+full validation loss: 0.8108
+
+--- sample ---
+
+"You are proud, Bubble!" Squeezed her mom and dad were a wraped. Buzzy said, "I will be friend you!"
+When the ball and they could stop others the ball caught them. They wanted to fix them and bak it with them. And they put one the ball into the middle, Eppeora of the ball view Lucy. And Lucy just lo
+
+Saved results/runB_data50k.json
+Saved checkpoints/runB_data50k.pt

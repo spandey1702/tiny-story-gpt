@@ -1,0 +1,47 @@
+device: cuda | vocabulary size: 85 | training chars: 39,882,982
+run: runC_bigger | parameters: 2,747,989 | lr schedule: cosine
+step     0 | train loss 4.652 | val loss 4.653 | lr 5.0e-06 | GPU memory 30 MB | 7s
+step   300 | train loss 2.178 | val loss 2.181 | lr 1.0e-03 | GPU memory 74 MB | 47s
+step   600 | train loss 1.444 | val loss 1.435 | lr 1.0e-03 | GPU memory 74 MB | 87s
+step   900 | train loss 1.219 | val loss 1.230 | lr 9.9e-04 | GPU memory 74 MB | 128s
+step  1200 | train loss 1.114 | val loss 1.119 | lr 9.8e-04 | GPU memory 74 MB | 170s
+step  1500 | train loss 1.037 | val loss 1.052 | lr 9.6e-04 | GPU memory 74 MB | 212s
+step  1800 | train loss 1.002 | val loss 1.000 | lr 9.4e-04 | GPU memory 74 MB | 256s
+step  2100 | train loss 0.962 | val loss 0.962 | lr 9.2e-04 | GPU memory 74 MB | 299s
+step  2400 | train loss 0.929 | val loss 0.933 | lr 8.9e-04 | GPU memory 74 MB | 342s
+step  2700 | train loss 0.900 | val loss 0.906 | lr 8.6e-04 | GPU memory 74 MB | 385s
+step  3000 | train loss 0.883 | val loss 0.879 | lr 8.3e-04 | GPU memory 74 MB | 429s
+step  3300 | train loss 0.848 | val loss 0.856 | lr 8.0e-04 | GPU memory 74 MB | 472s
+step  3600 | train loss 0.832 | val loss 0.838 | lr 7.6e-04 | GPU memory 74 MB | 516s
+step  3900 | train loss 0.813 | val loss 0.817 | lr 7.2e-04 | GPU memory 74 MB | 559s
+step  4200 | train loss 0.801 | val loss 0.804 | lr 6.8e-04 | GPU memory 74 MB | 603s
+step  4500 | train loss 0.790 | val loss 0.794 | lr 6.4e-04 | GPU memory 74 MB | 646s
+step  4800 | train loss 0.782 | val loss 0.781 | lr 5.9e-04 | GPU memory 74 MB | 689s
+step  5100 | train loss 0.768 | val loss 0.772 | lr 5.5e-04 | GPU memory 74 MB | 733s
+step  5400 | train loss 0.756 | val loss 0.762 | lr 5.1e-04 | GPU memory 74 MB | 776s
+step  5700 | train loss 0.755 | val loss 0.754 | lr 4.6e-04 | GPU memory 74 MB | 819s
+step  6000 | train loss 0.747 | val loss 0.751 | lr 4.2e-04 | GPU memory 74 MB | 862s
+step  6300 | train loss 0.743 | val loss 0.744 | lr 3.8e-04 | GPU memory 74 MB | 905s
+step  6600 | train loss 0.738 | val loss 0.736 | lr 3.4e-04 | GPU memory 74 MB | 948s
+step  6900 | train loss 0.728 | val loss 0.731 | lr 3.0e-04 | GPU memory 74 MB | 991s
+step  7200 | train loss 0.723 | val loss 0.731 | lr 2.7e-04 | GPU memory 74 MB | 1034s
+step  7500 | train loss 0.723 | val loss 0.726 | lr 2.4e-04 | GPU memory 74 MB | 1077s
+step  7800 | train loss 0.718 | val loss 0.722 | lr 2.1e-04 | GPU memory 74 MB | 1120s
+step  8100 | train loss 0.715 | val loss 0.711 | lr 1.8e-04 | GPU memory 74 MB | 1163s
+step  8400 | train loss 0.713 | val loss 0.707 | lr 1.6e-04 | GPU memory 74 MB | 1206s
+step  8700 | train loss 0.711 | val loss 0.708 | lr 1.4e-04 | GPU memory 74 MB | 1249s
+step  9000 | train loss 0.712 | val loss 0.708 | lr 1.2e-04 | GPU memory 74 MB | 1292s
+step  9300 | train loss 0.703 | val loss 0.705 | lr 1.1e-04 | GPU memory 74 MB | 1335s
+step  9600 | train loss 0.704 | val loss 0.704 | lr 1.0e-04 | GPU memory 74 MB | 1378s
+step  9900 | train loss 0.701 | val loss 0.704 | lr 1.0e-04 | GPU memory 74 MB | 1421s
+
+full validation loss: 0.7034
+
+--- sample ---
+
+One sunny day, Max knew Max found a small box in his house. Inside, there was a funny box named Tom. Max loved to run fast.
+One day, a gray cat came to the park with his mom. Tom saw that Max was still sad. He ran to Lily with the other cat, but he wanted him to help.
+Max ran to his mom, but his mom
+
+Saved results/runC_bigger.json
+Saved checkpoints/runC_bigger.pt
